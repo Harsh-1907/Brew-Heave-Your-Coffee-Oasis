@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://harsh-1907.github.io/Brew-Heave-Your-Coffee-Oasis/logoo.png">
     <style>
         /*.................Body,Navbar,Logo.............................*/
+
         body {
         margin: 0;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         }
+
         header {
             background-color: #222;
             position: relative;
@@ -22,11 +25,13 @@
             justify-content: space-between;
             align-items: center;
         }
+
         .logo {
             margin-left: 68px;
             max-width: 22%;
             height: auto;
         }
+
         nav {
             display: flex;
             margin-left: 20px;
@@ -34,6 +39,7 @@
             height: 35px;
             border-left: 1.5px solid beige; 
         }
+
         nav a {
             font-family: 'Yanone Kaffeesatz', sans-serif;
             text-decoration: none;
@@ -41,6 +47,7 @@
             margin: 0 18px;
             font-size: 27px; 
         }
+        
         nav a:hover {
             background-color: #d8d8d86c;
             transition: all .4s ease;
@@ -48,9 +55,6 @@
             transform: scale(1.15); 
             padding: 5px 10px;
         }
-
-        /*..............Footer............
-
 
         /* Home Section */
         #home {
@@ -142,53 +146,6 @@
         .product-card button:hover {
             background-color: #d5baba;
         }
-
-
-        /*
-        .product-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 200px; 
-        }
-        .product-card {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .product-card img {
-            width: 100%;
-            max-width: 200px;
-            height: auto;
-            border-radius: 2px;
-            margin-bottom: 5px;
-        }
-        .product-card p {
-            text-align: center;
-            font-family: serif;
-            background-color: #ffffff;
-            font-size: 1.2rem;
-            color: #666666;
-            margin-bottom: 15px;
-        }
-        .product-card button {
-            padding: 8px 16px;
-            background-color: #000000;
-            color: #ffffff;
-            border: none;
-            border-radius: 7px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-        .product-card button:hover {
-            background-color: #d5baba;
-        }
-        .product-card {
-            margin-bottom: 20px;
-        }
-        */
 
         h4{
             font-size: 75px;
@@ -519,6 +476,70 @@
         #coffeeBtn:hover, #muffinsBtn:hover, #cookiesBtn:hover, #donutsBtn:hover {
             background-color: #e4c7c7; /* Change background color on hover */
         }
+
+        /*.......................footer start............................*/
+
+        .site-footer {
+            background-color: #f0f0f0;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-widgets {
+            display: flex;
+            gap: 300px;
+        }
+
+        .widget {
+            flex: 1;
+        }
+
+        .footer-info {
+            margin-top: 2px;
+            text-align: center;
+        }
+
+        .footer-info p {
+            font-size: medium;
+            margin-bottom: 10px;
+        }
+
+        .copyright-info {
+            text-align: center;
+        }
+
+        .widget ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .widget ul li {
+            margin-bottom: 8px;
+        }
+
+        .widget ul li a {
+            font-size: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .widget ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /*.......................footer start............................*/
     </style>
 </head>
 
@@ -541,8 +562,8 @@
             <h1>Awaken Your Senses,<br>Start Fresh with our Coffee</h1>
             <button>Buy Now</button>
         </div>
-        <div style="max-width: 100%;">
-            <img src="home page img.png" alt="Coffee Image" style="width: 100%; border-radius: 10px;">
+        <div >
+            <img src="homepage.png" alt="Coffee Image" >
         </div>
     </div>
 </section><br><br><br>
@@ -568,7 +589,7 @@
         
         <!-- Coffee Product 1 -->
         <div class="product-card">
-            <img src="coffee/1.jpg" alt="Morning Glory Blend" class="product-image">
+            <img src="coffee1.jpg" alt="Morning Glory Blend" class="product-image">
             <h2>Morning Glory Blend</h2>
             <p class="price">£10.99</p>
             <p>A balanced blend of Colombian and Ethiopian beans, delivering a smooth and vibrant flavor with notes of chocolate and citrus.</p>
@@ -577,7 +598,7 @@
 
         <!-- Coffee Product 2 -->
         <div class="product-card">
-            <img src="coffee/2.jpg" alt="Sumatra Dark Roast" class="product-image">
+            <img src="coffee2.jpg" alt="Sumatra Dark Roast" class="product-image">
             <h2>Sumatra Dark Roast</h2>
             <p class="price">£12.99</p>
             <p>An intense and bold single-origin coffee from Sumatra, boasting deep, earthy flavors with hints of cedar and dark chocolate.</p>
@@ -586,7 +607,7 @@
 
         <!-- Coffee Product 3 -->
         <div class="product-card">
-            <img src="coffee/3.jpg" alt="Velvet Sunrise Espresso" class="product-image">
+            <img src="coffee3.jpg" alt="Velvet Sunrise Espresso" class="product-image">
             <h2>Velvet Sunrise Espresso</h2>
             <p class="price">£8.49</p>
             <p>Crafted from a blend of South American beans, this espresso offers a rich, velvety texture with caramel undertones and a hint of spice.</p>
@@ -595,7 +616,7 @@
 
         <!-- Coffee Product 4 -->
         <div class="product-card">
-            <img src="coffee/4.jpg" alt="Ethiopian Yirgacheffe" class="product-image">
+            <img src="coffee4.jpg" alt="Ethiopian Yirgacheffe" class="product-image">
             <h2>Ethiopian Yirgacheffe</h2>
             <p class="price">£14.49</p>
             <p>This single-origin coffee features bright acidity, floral aromas, and fruity notes, with a distinct profile of blueberry and jasmine.</p>
@@ -604,7 +625,7 @@
 
         <!-- Coffee Product 5 -->
         <div class="product-card">
-            <img src="coffee/5.jpg" alt="Decaf Delight Blend" class="product-image">
+            <img src="coffee5.jpg" alt="Decaf Delight Blend" class="product-image">
             <h2>Decaf Delight Blend</h2>
             <p class="price">£11.99</p>
             <p>A blend of decaffeinated beans from Central and South America, providing a mellow and full-bodied taste with hints of caramel and almonds.</p>
@@ -613,7 +634,7 @@
 
         <!-- Coffee Product 6 -->
         <div class="product-card">
-            <img src="coffee/6.jpg" alt="Brazilian Santos" class="product-image">
+            <img src="coffee6.jpg" alt="Brazilian Santos" class="product-image">
             <h2>Brazilian Santos</h2>
             <p class="price">£9.99</p>
             <p>Crafted from a blend of South American beans, this espresso offers a rich, velvety texture with caramel undertones and a hint of spice.</p>
@@ -622,7 +643,7 @@
 
         <!-- Coffee Product 7 -->
         <div class="product-card">
-            <img src="coffee/7.jpg" alt="Costa Rican Tarrazu" class="product-image">
+            <img src="coffee7.jpg" alt="Costa Rican Tarrazu" class="product-image">
             <h2>Costa Rican Tarrazu</h2>
             <p class="price">£13.99</p>
             <p>From the renowned Tarrazu region, this coffee boasts bright acidity, a clean profile, and flavors of citrus and honey.</p>
@@ -631,7 +652,7 @@
 
         <!-- Coffee Product 8 -->
         <div class="product-card">
-            <img src="coffee/8.jpg" alt="Guatemalan Antigua" class="product-image">
+            <img src="coffee8.jpg" alt="Guatemalan Antigua" class="product-image">
             <h2>Guatemalan Antigua</h2>
             <p class="price">£10.49</p>
             <p>A medium-bodied coffee with a bright acidity, displaying flavors of cocoa, caramel, and a hint of spice, sourced from the Antigua region.</p>
@@ -640,7 +661,7 @@
 
         <!-- Coffee Product 9 -->
         <div class="product-card">
-            <img src="coffee/9.jpg" alt="Hawaiian Kona Reserve" class="product-image">
+            <img src="coffee9.jpg" alt="Hawaiian Kona Reserve" class="product-image">
             <h2>Hawaiian Kona Reserve</h2>
             <p class="price">£29.99</p>
             <p>An exclusive blend of Hawaiian Kona beans, characterized by a smooth, velvety body and a complex flavor profile with notes of tropical fruits.</p>
@@ -655,7 +676,7 @@
     <div class="product-container">
         <!-- Muffin Product 1 -->
         <div class="product-card">
-            <img src="muffins/1.jpg" alt="Blueberry Bliss Muffin" class="product-image">
+            <img src="muffins1.jpg" alt="Blueberry Bliss Muffin" class="product-image">
             <h2>Blueberry Bliss Muffin</h2>
             <p class="price">£2.99</p>
             <p>A delightful blend of fresh blueberries baked into a fluffy muffin.</p>
@@ -664,7 +685,7 @@
 
         <!-- Muffin Product 2 -->
         <div class="product-card">
-            <img src="muffins/2.jpg" alt="Strawberry Cinnamon Comfort Muffin" class="product-image">
+            <img src="muffins2.jpg" alt="Strawberry Cinnamon Comfort Muffin" class="product-image">
             <h2>Strawberry Cinnamon Comfort Muffin</h2>
             <p class="price">£3.29</p>
             <p>Fall in love with the cozy combination of fresh strawberry and warm cinnamon spices.</p>
@@ -673,7 +694,7 @@
 
         <!-- Muffin Product 3 -->
         <div class="product-card">
-            <img src="muffins/3.jpg" alt="Pumpkin Spice Pleasure Muffin" class="product-image">
+            <img src="muffins3.jpg" alt="Pumpkin Spice Pleasure Muffin" class="product-image">
             <h2>Pumpkin Spice Pleasure Muffin</h2>
             <p class="price">£3.99</p>
             <p>Embrace the autumn season with the comforting taste of pumpkin and a hint of spice.</p>
@@ -682,7 +703,7 @@
 
         <!-- Muffin Product 4 -->
         <div class="product-card">
-            <img src="muffins/4.jpg" alt="Cranberry Orange Burst Muffin" class="product-image">
+            <img src="muffins4.jpg" alt="Cranberry Orange Burst Muffin" class="product-image">
             <h2>Cranberry Orange Burst Muffin</h2>
             <p class="price">£3.49</p>
             <p>A burst of flavors with sweet cranberries and citrusy orange zest in a soft muffin.</p>
@@ -691,7 +712,7 @@
 
         <!-- Muffin Product 5 -->
         <div class="product-card">
-            <img src="muffins/5.jpg" alt="Double Chocolate Decadence Muffin" class="product-image">
+            <img src="muffins5.jpg" alt="Double Chocolate Decadence Muffin" class="product-image">
             <h2>Double Chocolate Decadence Muffin</h2>
             <p class="price">£3.99</p>
             <p>A chocolate lover's dream with a double dose of rich cocoa and chocolate chunks.</p>
@@ -700,7 +721,7 @@
 
         <!-- Muffin Product 6 -->
         <div class="product-card">
-            <img src="muffins/6.jpg" alt="Banana Nut Bliss Muffin" class="product-image">
+            <img src="muffins6.jpg" alt="Banana Nut Bliss Muffin" class="product-image">
             <h2>Banana Nut Bliss Muffin</h2>
             <p class="price">£3.29</p>
             <p>Experience the nutty delight of ripe bananas and chopped walnuts in every bite.</p>
@@ -709,7 +730,7 @@
 
         <!-- Muffin Product 7 -->
         <div class="product-card">
-            <img src="muffins/7.jpg" alt="Chocolate Chip Delight Muffin" class="product-image">
+            <img src="muffins7.jpg" alt="Chocolate Chip Delight Muffin" class="product-image">
             <h2>Chocolate Chip Delight Muffin</h2>
             <p class="price">£3.49</p>
             <p>Indulge in the rich goodness of chocolate chips scattered throughout a moist muffin.</p>
@@ -718,7 +739,7 @@
 
         <!-- Muffin Product 8 -->
         <div class="product-card">
-            <img src="muffins/8.jpg" alt="Lemon Poppyseed Perfection Muffin" class="product-image">
+            <img src="muffins8.jpg" alt="Lemon Poppyseed Perfection Muffin" class="product-image">
             <h2>Lemon Poppyseed Perfection Muffin</h2>
             <p class="price">£3.99</p>
             <p>A zesty treat featuring the perfect balance of tangy lemon and crunchy poppyseeds.</p>
@@ -733,7 +754,7 @@
     <div class="product-container">
         <!-- Cookie Product 1 -->
         <div class="product-card">
-            <img src="cookies/1.jpg" alt="Classic Chocolate Chip Cookie" class="product-image">
+            <img src="cookies1.jpg" alt="Classic Chocolate Chip Cookie" class="product-image">
             <h2>Classic Chocolate Chip Cookie</h2>
             <p class="price">£1.99</p>
             <p>A timeless favorite with generous chocolate chips in a perfectly chewy cookie.</p>
@@ -742,7 +763,7 @@
 
         <!-- Cookie Product 2 -->
         <div class="product-card">
-            <img src="cookies/2.jpg" alt="Double Espresso Delight Cookie" class="product-image">
+            <img src="cookies2.jpg" alt="Double Espresso Delight Cookie" class="product-image">
             <h2>Double Espresso Delight Cookie</h2>
             <p class="price">£2.59</p>
             <p>Get a coffee kick with the rich taste of double espresso infused in a delightful cookie.</p>
@@ -751,7 +772,7 @@
 
         <!-- Cookie Product 3 -->
         <div class="product-card">
-            <img src="cookies/3.jpg" alt="White Chocolate Macadamia Nut Cookie" class="product-image">
+            <img src="cookies3.jpg" alt="White Chocolate Macadamia Nut Cookie" class="product-image">
             <h2>White Chocolate Macadamia Nut Cookie</h2>
             <p class="price">£2.49</p>
             <p>Indulge in the rich combination of creamy white chocolate and crunchy macadamia nuts.</p>
@@ -760,7 +781,7 @@
 
         <!-- Cookie Product 4 -->
         <div class="product-card">
-            <img src="cookies/4.jpg" alt="Mint Chocolate Chip Delight Cookie" class="product-image">
+            <img src="cookies4.jpg" alt="Mint Chocolate Chip Delight Cookie" class="product-image">
             <h2>Mint Chocolate Chip Delight Cookie</h2>
             <p class="price">£2.49</p>
             <p>Refresh your taste buds with the perfect blend of mint and chocolate chips.</p>
@@ -769,7 +790,7 @@
 
         <!-- Cookie Product 5 -->
         <div class="product-card">
-            <img src="cookies/5.jpg" alt="Snickerdoodle Sensation Cookie" class="product-image">
+            <img src="cookies5.jpg" alt="Snickerdoodle Sensation Cookie" class="product-image">
             <h2>Snickerdoodle Sensation Cookie</h2>
             <p class="price">£2.29</p>
             <p>Cinnamon and sugar goodness in every bite, creating a delightful snickerdoodle experience.</p>
@@ -778,7 +799,7 @@
 
         <!-- Cookie Product 6 -->
         <div class="product-card">
-            <img src="cookies/6.jpg" alt="Peanut Butter Bliss Cookie" class="product-image">
+            <img src="cookies6.jpg" alt="Peanut Butter Bliss Cookie" class="product-image">
             <h2>Peanut Butter Bliss Cookie</h2>
             <p class="price">£2.19</p>
             <p>Experience the nutty delight of peanut butter in a soft and chewy cookie.</p>
@@ -787,7 +808,7 @@
 
         <!-- Cookie Product 7 -->
         <div class="product-card">
-            <img src="cookies/7.jpg" alt="Almond Joyful Cookie" class="product-image">
+            <img src="cookies7.jpg" alt="Almond Joyful Cookie" class="product-image">
             <h2>Almond Joyful Cookie</h2>
             <p class="price">£2.39</p>
             <p>Escape to paradise with the tropical flavors of coconut, almonds, and chocolate.</p>
@@ -796,7 +817,7 @@
 
         <!-- Cookie Product 8 -->
         <div class="product-card">
-            <img src="cookies/8.jpg" alt="Oatmeal Raisin Delight Cookie" class="product-image">
+            <img src="cookies8.jpg" alt="Oatmeal Raisin Delight Cookie" class="product-image">
             <h2>Oatmeal Raisin Delight Cookie</h2>
             <p class="price">£2.29</p>
             <p>Enjoy the wholesome goodness of oats and plump raisins in a soft-baked cookie.</p>
@@ -811,7 +832,7 @@
     <div class="product-container">
         <!-- Donut Product 1 -->
         <div class="product-card">
-            <img src="donuts'/1.jpg" alt="Classic Glazed Ring Donut" class="product-image">
+            <img src="donuts'1.jpg" alt="Classic Glazed Ring Donut" class="product-image">
             <h2>Classic Glazed Ring Donut</h2>
             <p class="price">£1.49</p>
             <p>A traditional favorite with a golden brown exterior and a sweet, glossy glaze.</p>
@@ -820,7 +841,7 @@
 
         <!-- Donut Product 2 -->
         <div class="product-card">
-            <img src="donuts'/2.jpg" alt="Chocolate Fudge Heaven Donut" class="product-image">
+            <img src="donuts'2.jpg" alt="Chocolate Fudge Heaven Donut" class="product-image">
             <h2>Chocolate Fudge Heaven Donut</h2>
             <p class="price">£2.29</p>
             <p>Chocoholic's delight with a rich chocolate fudge coating on a soft donut.</p>
@@ -829,7 +850,7 @@
 
         <!-- Donut Product 3 -->
         <div class="product-card">
-            <img src="donuts'/3.png" alt="Blueberry Burst Ring Donut" class="product-image">
+            <img src="donuts'3.png" alt="Blueberry Burst Ring Donut" class="product-image">
             <h2>Blueberry Burst Ring Donut</h2>
             <p class="price">£1.89</p>
             <p>Indulge in the burst of flavor with sweet blueberry glaze on a perfectly fried ring donut.</p>
@@ -838,7 +859,7 @@
 
         <!-- Donut Product 4 -->
         <div class="product-card">
-            <img src="donuts'/4.png" alt="Maple Bacon Bliss Donut" class="product-image">
+            <img src="donuts'4.png" alt="Maple Bacon Bliss Donut" class="product-image">
             <h2>Maple Bacon Bliss Donut</h2>
             <p class="price">£1.99</p>
             <p>Indulge in the perfect balance of sweet maple syrup and savory bacon on a fluffy donut.</p>
@@ -847,7 +868,7 @@
        
         <!-- Donut Product 5 -->
         <div class="product-card">
-            <img src="donuts'/5.jpg" alt="Caramel Crunch Ring Donut" class="product-image">
+            <img src="donuts'5.jpg" alt="Caramel Crunch Ring Donut" class="product-image">
             <h2>Caramel Crunch Ring Donut</h2>
             <p class="price">£2.09</p>
             <p>Experience the sweet and crunchy delight of caramel drizzle on a classic ring donut.</p>
@@ -856,7 +877,7 @@
 
         <!-- Donut Product 6 -->
         <div class="product-card">
-            <img src="donuts'/6.jpg" alt="Strawberry Sprinkle Delight Donut" class="product-image">
+            <img src="donuts'6.jpg" alt="Strawberry Sprinkle Delight Donut" class="product-image">
             <h2>Strawberry Sprinkle Delight Donut</h2>
             <p class="price">£1.79</p>
             <p>Enjoy the fruity goodness of strawberry glaze topped with colorful sprinkles.</p>
@@ -875,14 +896,14 @@
         <p>
             At Brew Heaven, we believe in the artistry of coffee-making, combining the finest beans, expert craftsmanship, and a passion for perfection. Our commitment to quality extends from the coffee beans we source to the carefully designed spaces where you enjoy our brews.
         </p>
-        <!-- Initially hide the additional description -->
+        <p>
+            Step into Brew Heaven and experience a world where every cup tells a story. From the aromatic blends that awaken your senses to the cozy ambiance that invites conversation, we strive to make every visit a memorable journey for our patrons.
+        </p>
+        <p>
+            Join us in celebrating the rich tapestry of coffee culture. Whether you're seeking a quiet spot for reflection, engaging in spirited conversations, or simply enjoying a moment of solitude, Brew Heaven is your destination for exceptional coffee experiences.
+        </p>
+        <!-- Initially to hide the additional description -->
         <div id="additional-description" style="display: none;">
-            <p>
-                Step into Brew Heaven and experience a world where every cup tells a story. From the aromatic blends that awaken your senses to the cozy ambiance that invites conversation, we strive to make every visit a memorable journey for our patrons.
-            </p>
-            <p>
-                Join us in celebrating the rich tapestry of coffee culture. Whether you're seeking a quiet spot for reflection, engaging in spirited conversations, or simply enjoying a moment of solitude, Brew Heaven is your destination for exceptional coffee experiences.
-            </p>
             <p>
                 Our commitment to excellence extends beyond our beverages. We also offer a delectable selection of pastries, sandwiches, and desserts, meticulously crafted to complement our coffee offerings. From freshly baked muffins to indulgent cookies, there's something to satisfy every craving at Brew Heaven.
             </p>
@@ -903,7 +924,7 @@
             <!-- Left Review -->
             <div class="review">
                 <div class="person">
-                    <img src="reviews/sarah.t.jpg" alt="Sarah's Face">
+                    <img src="sarah.t.jpg" alt="Sarah's Face">
                     <p>Sarah T.</p>
                     <p>⭐⭐⭐⭐⭐</p>
                 </div>
@@ -913,7 +934,7 @@
             <!---------------------------------------Right Review------------------------------------------>
             <div class="review">
                 <div class="person">
-                    <img src="reviews/john.d.jpg" alt="John's Face">
+                    <img src="john.d.jpg" alt="John's Face">
                     <p>John D.</p>
                     <p>⭐⭐⭐⭐⭐</p>
                 </div>
@@ -948,7 +969,7 @@
             <h2>To Keep in Touch with Brew Heaven </h2><br>
             <!-- Contact Items -->
             <div class="contact-item">
-                <img src="contact us/telephone.png" alt="Phone Icon"><br>
+                <img src="telephone.png" alt="Phone Icon"><br>
                 <div>
                     <h3>Phone</h3><br>
                     <p>+91 123 456 7890</p>
@@ -956,7 +977,7 @@
             </div>
 
             <div class="contact-item">
-                <img src="contact us/gmail.png" alt="Email Icon"><br>
+                <img src="gmail.png" alt="Email Icon"><br>
                 <div>
                     <h3>Email</h3><br>
                     <p>brewheaven@gmail.com</p>
@@ -964,7 +985,7 @@
             </div>
 
             <div class="contact-item">
-                <img src="contact us/google-maps.png" alt="Location Icon"><br>
+                <img src="google-maps.png" alt="Location Icon"><br>
                 <div>
                     <h3>Location</h3><br>
                     <p>123 Coffee Street, Brewville, CaffeineLand</p>
@@ -976,10 +997,10 @@
                 <p>Follow us on:</p>
                 <!-- Social Icons -->
                 <div class="social-icons">
-                    <img src="contact us/facebook.png" alt="Facebook Icon">
-                    <img src="contact us/twitter.png" alt="Twitter Icon">
-                    <img src="contact us/instagram.png" alt="Instagram Icon">
-                    <img src="contact us/linkedin.png" alt="LinkedIn Icon">
+                    <img src="facebook.png" alt="Facebook Icon">
+                    <img src="twitter.png" alt="Twitter Icon">
+                    <img src="instagram.png" alt="Instagram Icon">
+                    <img src="linkedin.png" alt="LinkedIn Icon">
                 </div>
             </div>
         </div>
@@ -1026,7 +1047,7 @@
             </form>
         </div>
         </section>
-    </section><br><br><br>
+    </section><br>
 <footer class="site-footer">
     <div class="container">
         <div class="footer-widgets">
@@ -1063,87 +1084,6 @@
             </div>
         </div>
     </div>
-        <style>
-        .site-footer {
-            background-color: #f0f0f0;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .footer-widgets {
-            display: flex;
-            gap: 300px;
-        }
-
-        .widget {
-            flex: 1;
-        }
-
-        .footer-info {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .footer-info p {
-            font-size: medium;
-            margin-bottom: 10px;
-        }
-
-        .copyright-info {
-            text-align: center;
-        }
-
-        .widget ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .widget ul li {
-            margin-bottom: 8px;
-        }
-
-        .widget ul li a {
-            color: #333;
-            text-decoration: none;
-        }
-
-        .widget ul li a:hover {
-            text-decoration: underline;
-        }
-        </style>
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Function to handle click on "Subscribe to Newsletter"
-            document.getElementById('newsletter').addEventListener('click', function (event) {
-                event.preventDefault();
-                // Implement your logic for "Subscribe to Newsletter"
-                alert('You clicked Subscribe to Newsletter');
-            });
-    
-            // Function to handle click on "Follow Us on Social Media"
-            document.getElementById('social-media').addEventListener('click', function (event) {
-                event.preventDefault();
-                // Implement your logic for "Follow Us on Social Media"
-                alert('You clicked Follow Us on Social Media');
-            });
-    
-            // Function to handle click on "Coffee Events Calendar"
-            document.getElementById('events').addEventListener('click', function (event) {
-                event.preventDefault();
-                // Implement your logic for "Coffee Events Calendar"
-                alert('You clicked Coffee Events Calendar');
-            });
-        });
-    </script>
 </footer>
 </body>
 </html>
